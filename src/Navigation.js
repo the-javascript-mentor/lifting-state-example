@@ -2,9 +2,8 @@ import { useState } from "react";
 import SearchBar from "./SearchBar";
 import SearchButton from "./SearchButton";
 
-const Navigation = () => {
+const Navigation = ({ setSearchQuery }) => {
   const [searchString, setSearchString] = useState("");
-  const [searchQuery, setSearchQuery] = useState("");
 
   return (
     <header>
