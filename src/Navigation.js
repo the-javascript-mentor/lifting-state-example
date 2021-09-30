@@ -19,9 +19,6 @@ const Navigation = () => {
           setSearchQuery={setSearchQuery}
         />
       </nav>
-      {searchQuery === ""
-        ? "No search"
-        : `You have searched for ${searchQuery}`}
     </header>
   );
 };
